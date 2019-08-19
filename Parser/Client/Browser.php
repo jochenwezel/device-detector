@@ -242,11 +242,11 @@ class Browser extends AbstractClientParser
             'CH', 'BA', 'BR', 'CC', 'CD', 'CM', 'CI', 'CF', 'CN',
             'CR', 'CP', 'IR', 'RM', 'AO', 'TS', 'VI', 'PT', 'AS',
             'TB', 'AD', 'SB', 'WP', 'I3', 'CV', 'WH', 'SZ', 'QW',
-            'LF', 'KW', '2B', 'CE', 'EC', 'MT'
+            'LF', 'KW', '2B', 'CE', 'EC', 'MT',
         ],
         'Firefox'            => [
             'FF', 'FE', 'FM', 'SX', 'FB', 'PX', 'MB', 'EI', 'WF',
-            'CU', 'TF', 'QM', 'FR', 'I4', 'GZ', 'MO', 'F1'
+            'CU', 'TF', 'QM', 'FR', 'I4', 'GZ', 'MO', 'F1',
         ],
         'Internet Explorer'  => ['IE', 'IM', 'PS'],
         'Konqueror'          => ['KO'],
@@ -264,7 +264,7 @@ class Browser extends AbstractClientParser
      * @var array
      */
     protected static $mobileOnlyBrowsers = [
-        '36', 'PU', 'SK', 'MF', 'OI', 'OM', 'DB', 'ST', 'BL', 'IV', 'FM', 'C1', 'AL', 'SA', 'SB', 'FR', 'WP'
+        '36', 'PU', 'SK', 'MF', 'OI', 'OM', 'DB', 'ST', 'BL', 'IV', 'FM', 'C1', 'AL', 'SA', 'SB', 'FR', 'WP',
     ];
 
     /**
