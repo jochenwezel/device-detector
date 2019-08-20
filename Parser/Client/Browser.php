@@ -268,7 +268,9 @@ class Browser extends AbstractClientParser
      * @var array
      */
     protected static $mobileOnlyBrowsers = [
-        '360 Phone Browser', 'Puffin', 'Skyfire', 'Mobile Safari', 'Opera Mini', 'Opera Mobile', 'dbrowser', 'Streamy', 'B-Line', 'Isivioo', 'Firefox Mobile', 'Coast', 'Aloha Browser', 'Sailfish Browser', 'Samsung Browser', 'Firefox Rocket', 'Web Explorer',
+        '360 Phone Browser', 'Puffin', 'Skyfire', 'Mobile Safari', 'Opera Mini', 'Opera Mobile',
+        'dbrowser', 'Streamy', 'B-Line', 'Isivioo', 'Firefox Mobile', 'Coast', 'Aloha Browser',
+        'Sailfish Browser', 'Samsung Browser', 'Firefox Rocket', 'Web Explorer',
     ];
 
     /**
