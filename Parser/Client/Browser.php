@@ -392,7 +392,7 @@ class Browser extends AbstractClientParser
             $engineParser->setCache($this->getCache());
             $engineParser->setUserAgent($this->userAgent);
             $result = $engineParser->parse();
-            $engine = $result['engine'] ?: '';
+            $engine = $result['engine'] ?? '';
         }
 
         return $engine;
@@ -409,6 +409,6 @@ class Browser extends AbstractClientParser
 
         $result = $engineVersionParser->parse();
 
-        return $result['version'] ?: '';
+        return $result['version'] ?? '';
     }
 }
